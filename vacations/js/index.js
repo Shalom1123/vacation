@@ -43,10 +43,3 @@ function addVacation() {
   localStorage.setItem(CONFIG.VACATIONS, JSON.stringify(state.vacations));
   draw(state.vacations);
 }
-
-setTimeout((_bgcolor) => {
-  colorbody = document.getElementById("body");
-  colobody =document.innerHTML
-  
-}, 3000);
-
